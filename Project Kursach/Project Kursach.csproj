@@ -290,6 +290,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\dialog.cs" />
+    <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\DoorController.cs" />
     <Compile Include="Assets\ENEMY\12.cs" />
     <Compile Include="Assets\ENEMY\aiEasy.cs" />
     <Compile Include="Assets\Environment\Water\Water\Scripts\Displace.cs" />
@@ -303,6 +305,7 @@
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
     <Compile Include="Assets\HP.cs" />
     <Compile Include="Assets\Note.cs" />
+    <Compile Include="Assets\OpenDoor.cs" />
     <Compile Include="Assets\ReadNotes.cs" />
     <Compile Include="Assets\туман\Scripts\LookAtBehaviour.cs" />
     <Compile Include="Assets\туман\Scripts\LookAtCameraBehaviour.cs" />
