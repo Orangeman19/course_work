@@ -289,38 +289,40 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\dialog.cs" />
-    <Compile Include="Assets\Door.cs" />
-    <Compile Include="Assets\DoorController.cs" />
     <Compile Include="Assets\ENEMY\12.cs" />
     <Compile Include="Assets\ENEMY\aiEasy.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\Displace.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\Water.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
-    <Compile Include="Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
-    <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
-    <Compile Include="Assets\HP.cs" />
-    <Compile Include="Assets\Note.cs" />
-    <Compile Include="Assets\OpenDoor.cs" />
-    <Compile Include="Assets\ReadNotes.cs" />
-    <Compile Include="Assets\туман\Scripts\LookAtBehaviour.cs" />
-    <Compile Include="Assets\туман\Scripts\LookAtCameraBehaviour.cs" />
-    <Compile Include="Assets\туман\Scripts\RayBehavior.cs" />
-    <Compile Include="Assets\туман\Scripts\RotateBehaviour.cs" />
+    <Compile Include="Assets\ENEMY\enemy.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\mir\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\mir\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+    <Compile Include="Assets\mir\туман\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\mir\туман\Scripts\LookAtCameraBehaviour.cs" />
+    <Compile Include="Assets\mir\туман\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\mir\туман\Scripts\RotateBehaviour.cs" />
+    <Compile Include="Assets\Skript\dialog.cs" />
+    <Compile Include="Assets\Skript\Door.cs" />
+    <Compile Include="Assets\Skript\DoorController.cs" />
+    <Compile Include="Assets\Skript\HP.cs" />
+    <Compile Include="Assets\Skript\Note.cs" />
+    <Compile Include="Assets\Skript\ReadNotes.cs" />
+    <Compile Include="Assets\True_Horror\e_scrarecrow.cs" />
+    <Compile Include="Assets\Zombie\zomby.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\FoodAndGrocery\Info.txt" />
-    <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
-    <None Include="Assets\Mega Fantasy Props Pack\README.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\mir\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\mir\FoodAndGrocery\Info.txt" />
+    <None Include="Assets\mir\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\mir\Mega Fantasy Props Pack\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
