@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Kursach — копия", "Project Kursach — копия.csproj", "{D97A49CB-1EF1-9F3F-BA89-A87E5AB38083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Kursach — копия.Plugins", "Project Kursach — копия.Plugins.csproj", "{724663A9-29D0-1ED1-03FB-C32F298B866D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Kursach — копия.Editor.Plugins", "Project Kursach — копия.Editor.Plugins.csproj", "{DC8B0C92-9D41-459C-E581-3D56C951BFED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97A49CB-1EF1-9F3F-BA89-A87E5AB38083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97A49CB-1EF1-9F3F-BA89-A87E5AB38083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97A49CB-1EF1-9F3F-BA89-A87E5AB38083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97A49CB-1EF1-9F3F-BA89-A87E5AB38083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724663A9-29D0-1ED1-03FB-C32F298B866D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724663A9-29D0-1ED1-03FB-C32F298B866D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724663A9-29D0-1ED1-03FB-C32F298B866D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724663A9-29D0-1ED1-03FB-C32F298B866D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8B0C92-9D41-459C-E581-3D56C951BFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8B0C92-9D41-459C-E581-3D56C951BFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8B0C92-9D41-459C-E581-3D56C951BFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8B0C92-9D41-459C-E581-3D56C951BFED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
